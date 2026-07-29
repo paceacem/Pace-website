@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PACE — Project Association for Computer and Electronics | ACEM</title>
-  
+
   <!-- SEO Meta Tags -->
-  <meta name="description" content="PACE (Project Association for Computer and Electronics) is a student-led technical club under the Department of Electronics and Computer Engineering at Advanced College of Engineering and Management (ACEM), Kalanki, Kathmandu.">
-  <meta name="keywords" content="PACE, ACEM, Electronics Club, Computer Club, Tribhuvan University, Engineering Nepal, Kalanki, Student Club, Technical Workshops">
+  <meta name="description"
+    content="PACE (Project Association for Computer and Electronics) is a student-led technical club under the Department of Electronics and Computer Engineering at Advanced College of Engineering and Management (ACEM), Kalanki, Kathmandu.">
+  <meta name="keywords"
+    content="PACE, ACEM, Electronics Club, Computer Club, Tribhuvan University, Engineering Nepal, Kalanki, Student Club, Technical Workshops">
   <meta name="author" content="PACE ACEM">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://acem.edu.np">
   <meta property="og:title" content="PACE — Project Association for Computer and Electronics">
-  <meta property="og:description" content="Explore hands-on workshops, engineering projects, and technical competitions by PACE, the ECE student club at Advanced College of Engineering and Management.">
-  
+  <meta property="og:description"
+    content="Explore hands-on workshops, engineering projects, and technical competitions by PACE, the ECE student club at Advanced College of Engineering and Management.">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assests/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assests/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assests/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assests/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="assests/favicon_io/site.webmanifest">
+  <!--Favicon-->
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
   <!-- 1. Sticky Navigation -->
@@ -36,7 +50,7 @@
           <span class="brand-subtitle">ACEM</span>
         </div>
       </a>
-      
+
       <!-- Desktop Navigation Menu -->
       <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
         <ul class="nav-list">
@@ -50,7 +64,8 @@
 
       <!-- Nav CTA & Mobile Hamburger -->
       <div class="nav-actions">
-        <button class="hamburger-menu" id="hamburgerBtn" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <button class="hamburger-menu" id="hamburgerBtn" aria-expanded="false" aria-controls="navMenu"
+          aria-label="Toggle menu">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -66,80 +81,89 @@
       <div class="hero-bg-pattern" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" fill="none" class="circuit-svg">
           <!-- Grid Lines -->
-          <path d="M 0 100 H 1440 M 0 300 H 1440 M 0 500 H 1440 M 0 700 H 1440" stroke="rgba(77, 77, 77, 0.03)" stroke-width="1"/>
-          <path d="M 200 0 V 800 M 600 0 V 800 M 1000 0 V 800 M 1400 0 V 800" stroke="rgba(77, 77, 77, 0.03)" stroke-width="1"/>
-          
+          <path d="M 0 100 H 1440 M 0 300 H 1440 M 0 500 H 1440 M 0 700 H 1440" stroke="rgba(77, 77, 77, 0.03)"
+            stroke-width="1" />
+          <path d="M 200 0 V 800 M 600 0 V 800 M 1000 0 V 800 M 1400 0 V 800" stroke="rgba(77, 77, 77, 0.03)"
+            stroke-width="1" />
+
           <!-- Circuit Board Paths -->
-          <path d="M 150 150 L 300 150 L 350 200 L 500 200 L 550 250 M 500 200 L 500 350 L 450 400" stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round"/>
-          <path d="M 1200 650 L 1050 650 L 1000 600 L 800 600 L 750 550 M 800 600 L 800 450 L 850 400" stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round"/>
-          <path d="M 1050 150 L 1150 150 L 1200 200 L 1300 200" stroke="rgba(77, 77, 77, 0.08)" stroke-width="1.5" stroke-linecap="round"/>
-          
+          <path d="M 150 150 L 300 150 L 350 200 L 500 200 L 550 250 M 500 200 L 500 350 L 450 400"
+            stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round" />
+          <path d="M 1200 650 L 1050 650 L 1000 600 L 800 600 L 750 550 M 800 600 L 800 450 L 850 400"
+            stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round" />
+          <path d="M 1050 150 L 1150 150 L 1200 200 L 1300 200" stroke="rgba(77, 77, 77, 0.08)" stroke-width="1.5"
+            stroke-linecap="round" />
+
           <!-- Circuit Nodes (Dots) -->
-          <circle cx="150" cy="150" r="4" fill="#B0263A" opacity="0.4"/>
-          <circle cx="550" cy="250" r="4" fill="#B0263A" opacity="0.4"/>
-          <circle cx="450" cy="400" r="4" fill="#B0263A" opacity="0.4"/>
-          <circle cx="1200" cy="650" r="4" fill="#4D4D4D" opacity="0.4"/>
-          <circle cx="750" cy="550" r="4" fill="#B0263A" opacity="0.4"/>
-          <circle cx="850" cy="400" r="4" fill="#4D4D4D" opacity="0.4"/>
-          <circle cx="1050" cy="150" r="3" fill="#C7C7C7" opacity="0.4"/>
-          <circle cx="1300" cy="200" r="3" fill="#C7C7C7" opacity="0.4"/>
+          <circle cx="150" cy="150" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="550" cy="250" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="450" cy="400" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="1200" cy="650" r="4" fill="#4D4D4D" opacity="0.4" />
+          <circle cx="750" cy="550" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="850" cy="400" r="4" fill="#4D4D4D" opacity="0.4" />
+          <circle cx="1050" cy="150" r="3" fill="#C7C7C7" opacity="0.4" />
+          <circle cx="1300" cy="200" r="3" fill="#C7C7C7" opacity="0.4" />
         </svg>
       </div>
 
       <div class="container hero-container">
         <div class="hero-content">
-          <div class="hero-badge">Department of Electronics &amp; Computer Engineering, ACEM</div>
+          <!-- <div class="hero-badge">Department of Electronics &amp; Computer Engineering, ACEM</div> -->
           <h1 class="hero-title">Advancing Practical Engineering &amp; Innovation</h1>
-          <p class="hero-subtitle">PACE is the student-led technical association of Advanced College of Engineering &amp; Management, empowering future tech pioneers through hands-on creation and real-world engineering challenge engagement.</p>
-          
+          <p class="hero-subtitle">PACE is the student-led technical association of Advanced College of Engineering
+            &amp; Management, empowering future tech pioneers through hands-on creation and real-world engineering
+            challenge engagement.</p>
+
           <div class="hero-actions">
-            <a href="#events" class="btn btn-primary">Explore Projects</a>
-            <a href="#members" class="btn btn-secondary">Meet the Team</a>
+            <!-- <a href="#events" class="btn btn-primary">Explore Projects</a> -->
+            <a href="#members" class="btn btn-primary">Know Our Team</a>
           </div>
         </div>
-        
+
         <div class="hero-visual" aria-hidden="true">
           <!-- Sleek minimalist circuit element illustration -->
           <div class="circuit-board-wrapper">
             <svg viewBox="0 0 500 500" fill="none" class="interactive-circuit">
               <!-- Central chip -->
-              <rect x="180" y="180" width="140" height="140" rx="12" fill="#4D4D4D" stroke="#B0263A" stroke-width="4"/>
-              <rect x="200" y="200" width="100" height="100" rx="8" fill="#2B2B2B"/>
-              
+              <rect x="180" y="180" width="140" height="140" rx="12" fill="#4D4D4D" stroke="#B0263A" stroke-width="4" />
+              <rect x="200" y="200" width="100" height="100" rx="8" fill="#2B2B2B" />
+
               <!-- Core icon (Abstract Neuron inside Chip) -->
-              <path d="M 250 220 C 235 220 225 230 225 242.5 C 225 251.25 231.25 258.75 240 261.25 L 240 275 L 245 280 H 255 L 260 275 L 260 261.25 C 268.75 258.75 275 251.25 275 242.5 C 275 230 265 220 250 220 Z" fill="#B0263A"/>
-              <circle cx="250" cy="242" r="6" fill="#FAFAFA"/>
-              
+              <path
+                d="M 250 220 C 235 220 225 230 225 242.5 C 225 251.25 231.25 258.75 240 261.25 L 240 275 L 245 280 H 255 L 260 275 L 260 261.25 C 268.75 258.75 275 251.25 275 242.5 C 275 230 265 220 250 220 Z"
+                fill="#B0263A" />
+              <circle cx="250" cy="242" r="6" fill="#FAFAFA" />
+
               <!-- Pins & Connections -->
               <g stroke="#C7C7C7" stroke-width="3" stroke-linecap="round">
                 <!-- Top Pins -->
-                <path d="M 210 180 V 130 H 160"/>
-                <path d="M 250 180 V 110"/>
-                <path d="M 290 180 V 130 H 340"/>
+                <path d="M 210 180 V 130 H 160" />
+                <path d="M 250 180 V 110" />
+                <path d="M 290 180 V 130 H 340" />
                 <!-- Bottom Pins -->
-                <path d="M 210 320 V 370 H 150"/>
-                <path d="M 250 320 V 390"/>
-                <path d="M 290 320 V 370 H 350"/>
+                <path d="M 210 320 V 370 H 150" />
+                <path d="M 250 320 V 390" />
+                <path d="M 290 320 V 370 H 350" />
                 <!-- Left Pins -->
-                <path d="M 180 210 H 130 V 160"/>
-                <path d="M 180 250 H 100"/>
-                <path d="M 180 290 H 130 V 340"/>
+                <path d="M 180 210 H 130 V 160" />
+                <path d="M 180 250 H 100" />
+                <path d="M 180 290 H 130 V 340" />
                 <!-- Right Pins -->
-                <path d="M 320 210 H 370 V 170"/>
-                <path d="M 320 250 H 400"/>
-                <path d="M 320 290 H 370 V 330"/>
+                <path d="M 320 210 H 370 V 170" />
+                <path d="M 320 250 H 400" />
+                <path d="M 320 290 H 370 V 330" />
               </g>
-              
+
               <!-- Terminal Nodes -->
-              <circle cx="160" cy="130" r="5" fill="#B0263A"/>
-              <circle cx="250" cy="110" r="5" fill="#4D4D4D"/>
-              <circle cx="340" cy="130" r="5" fill="#B0263A"/>
-              <circle cx="150" cy="370" r="5" fill="#4D4D4D"/>
-              <circle cx="250" cy="390" r="5" fill="#B0263A"/>
-              <circle cx="350" cy="370" r="5" fill="#C7C7C7"/>
-              
-              <circle cx="100" cy="250" r="6" fill="#B0263A"/>
-              <circle cx="400" cy="250" r="6" fill="#B0263A"/>
+              <circle cx="160" cy="130" r="5" fill="#B0263A" />
+              <circle cx="250" cy="110" r="5" fill="#4D4D4D" />
+              <circle cx="340" cy="130" r="5" fill="#B0263A" />
+              <circle cx="150" cy="370" r="5" fill="#4D4D4D" />
+              <circle cx="250" cy="390" r="5" fill="#B0263A" />
+              <circle cx="350" cy="370" r="5" fill="#C7C7C7" />
+
+              <circle cx="100" cy="250" r="6" fill="#B0263A" />
+              <circle cx="400" cy="250" r="6" fill="#B0263A" />
             </svg>
           </div>
         </div>
@@ -154,31 +178,37 @@
           <h2 class="section-title">About PACE</h2>
           <div class="section-divider"></div>
         </div>
-        
+
         <div class="about-content">
           <div class="about-text-wrapper">
             <p class="about-lead">
-              PACE (Project Association for Computer and Electronics) is a student-led technical club under the Department of Electronics and Computer Engineering at Advanced College of Engineering and Management (ACEM), Kathmandu.
+              PACE (Project Association for Computer and Electronics) is a student-led technical club under the
+              Department of Electronics and Computer Engineering at Advanced College of Engineering and Management
+              (ACEM), Kathmandu.
             </p>
             <p class="about-body">
-              Our mission is to provide hands-on learning opportunities by exploring practical implementation of topics beyond the regular curriculum through workshops, projects, and technical competitions. We nurture engineering skillsets, promote multi-disciplinary collaboration, and act as a springboard for student leadership and technical excellence.
+              Our mission is to provide hands-on learning opportunities by exploring practical implementation of topics
+              beyond the regular curriculum through workshops, projects, and technical competitions. We nurture
+              engineering skillsets, promote multi-disciplinary collaboration, and act as a springboard for student
+              leadership and technical excellence.
             </p>
             <div class="about-cta-container">
               <!-- About Read More button (Future Page) -->
               <!-- TODO: wire up later to redirect to a dedicated About page -->
-              <a href="#about" class="btn btn-outline disabled-placeholder" aria-label="Read more about PACE (Coming Soon)">Read More</a>
-              <span class="placeholder-tag">Future Page</span>
+              <!-- <a href="#about" class="btn btn-outline disabled-placeholder"
+                aria-label="Read more about PACE (Coming Soon)">Read More</a>
+              <span class="placeholder-tag">Future Page</span> -->
             </div>
           </div>
-          
+
           <div class="about-meta-box">
             <div class="meta-item">
               <span class="meta-label">Established</span>
-              <span class="meta-value">Since 2018</span>
+              <span class="meta-value">Since 2000</span>
             </div>
             <div class="meta-item">
               <span class="meta-label">Affiliation</span>
-              <span class="meta-value">Department of ECE, ACEM</span>
+              <span class="meta-value">Department of Electronics and Computer Engineering, ACEM</span>
             </div>
             <div class="meta-item">
               <span class="meta-label">Location</span>
@@ -192,28 +222,49 @@
           <!-- Card 1 -->
           <div class="service-card">
             <div class="card-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-tool"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather-tool">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                </path>
+              </svg>
             </div>
             <h4 class="service-card-title">Technical Workshops</h4>
-            <p class="service-card-text">We organize technical workshops and hands-on sessions covering programming, embedded systems, and system design for ACEM students.</p>
+            <p class="service-card-text">We organize technical workshops and hands-on sessions covering programming,
+              embedded systems, and system design for ACEM students.</p>
           </div>
-          
+
           <!-- Card 2 -->
           <div class="service-card">
             <div class="card-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather-award">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
             </div>
             <h4 class="service-card-title">Technical Festivals</h4>
-            <p class="service-card-text">We build competitive project teams and represent our college in national and international tech festivals, including IIT Bombay Techfest.</p>
+            <p class="service-card-text">We build competitive project teams and represent our college in national and
+              international tech festivals, including IIT Bombay Techfest.</p>
           </div>
-          
+
           <!-- Card 3 -->
           <div class="service-card">
             <div class="card-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather-users">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
             </div>
             <h4 class="service-card-title">Club Collaboration</h4>
-            <p class="service-card-text">We collaborate closely with other ACEM technical clubs (such as the Advanced Robotics Club — ARC) on integrated robotics and engineering challenges.</p>
+            <p class="service-card-text">We collaborate closely with other ACEM technical clubs (such as the Advanced
+              Robotics Club — ARC) on integrated robotics and engineering challenges.</p>
           </div>
         </div>
       </div>
@@ -227,7 +278,7 @@
           <h2 class="section-title">Club Events</h2>
           <div class="section-divider"></div>
         </div>
-        
+
         <div class="events-grid">
           <!-- Event 1 (Placeholder) -->
           <div class="event-card">
@@ -238,14 +289,17 @@
                 <span class="event-location">ACEM Campus</span>
               </div>
               <h3 class="event-title">Protobytes Hackathon</h3>
-              <p class="event-desc">Our flagship annual hackathon event. Students will collaborate in teams to conceptualize and develop hardware/software prototypes solving local challenges within a limited timeframe.</p>
-              
+              <p class="event-desc">Our flagship annual hackathon event. Students will collaborate in teams to
+                conceptualize and develop hardware/software prototypes solving local challenges within a limited
+                timeframe.</p>
+
               <!-- Event Learn More (Placeholder) -->
               <!-- TODO: wire up later -->
-              <a href="#events" class="btn btn-text-link disabled-placeholder" aria-label="Learn more about Protobytes Hackathon (Coming Soon)">Learn More &rarr;</a>
+              <a href="#events" class="btn btn-text-link disabled-placeholder"
+                aria-label="Learn more about Protobytes Hackathon (Coming Soon)">Learn More &rarr;</a>
             </div>
           </div>
-          
+
           <!-- Event 2 (Placeholder) -->
           <div class="event-card">
             <div class="event-status-tag">Coming Soon</div>
@@ -255,14 +309,16 @@
                 <span class="event-location">ECE Lab</span>
               </div>
               <h3 class="event-title">Embedded Systems Workshop</h3>
-              <p class="event-desc">A hands-on technical boot camp focusing on microcontrollers (Arduino/ESP32), sensor interfacing, circuit assembly on breadboards, and introductory IoT integration.</p>
-              
+              <p class="event-desc">A hands-on technical boot camp focusing on microcontrollers (Arduino/ESP32), sensor
+                interfacing, circuit assembly on breadboards, and introductory IoT integration.</p>
+
               <!-- Event Learn More (Placeholder) -->
               <!-- TODO: wire up later -->
-              <a href="#events" class="btn btn-text-link disabled-placeholder" aria-label="Learn more about Embedded Systems Workshop (Coming Soon)">Learn More &rarr;</a>
+              <a href="#events" class="btn btn-text-link disabled-placeholder"
+                aria-label="Learn more about Embedded Systems Workshop (Coming Soon)">Learn More &rarr;</a>
             </div>
           </div>
-          
+
           <!-- Event 3 (Placeholder) -->
           <div class="event-card">
             <div class="event-status-tag">Coming Soon</div>
@@ -272,307 +328,36 @@
                 <span class="event-location">Seminar Hall</span>
               </div>
               <h3 class="event-title">Git &amp; Collaborative Dev Seminar</h3>
-              <p class="event-desc">An interactive seminar on using Git for team project management. Learn basic command lines, merge conflict resolutions, and effective open-source contribution workflows.</p>
-              
+              <p class="event-desc">An interactive seminar on using Git for team project management. Learn basic command
+                lines, merge conflict resolutions, and effective open-source contribution workflows.</p>
+
               <!-- Event Learn More (Placeholder) -->
               <!-- TODO: wire up later -->
-              <a href="#events" class="btn btn-text-link disabled-placeholder" aria-label="Learn more about Git Seminar (Coming Soon)">Learn More &rarr;</a>
+              <a href="#events" class="btn btn-text-link disabled-placeholder"
+                aria-label="Learn more about Git Seminar (Coming Soon)">Learn More &rarr;</a>
             </div>
           </div>
         </div>
-        
+
         <div class="events-footer-cta">
           <!-- View All Events button (Future Page) -->
           <!-- TODO: wire up later to redirect to a dedicated Events page -->
-          <a href="#events" class="btn btn-outline disabled-placeholder" aria-label="View all events (Coming Soon)">View All Events</a>
+          <a href="#events" class="btn btn-outline disabled-placeholder" aria-label="View all events (Coming Soon)">View
+            All Events</a>
           <span class="placeholder-tag">Future Page</span>
         </div>
       </div>
     </section>
 
-    <!-- 5. Members Section -->
     <section id="members" class="members-section">
       <div class="container">
         <div class="section-header">
           <span class="section-tag">Our Team</span>
-          <h2 class="section-title">Meet the Team</h2>
+          <h2 class="section-title">Club Members</h2>
           <div class="section-divider"></div>
-        </div>
+          </div>
 
-        <h3 class="team-subheading">Executive Committee</h3>
-        <div class="executive-grid">
-          <!-- President -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <!-- Styled CSS/SVG Avatar Placeholder -->
-              <div class="member-avatar">BP</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Biraj Pandey</h4>
-              <p class="member-role">President</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Biraj Pandey's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Biraj Pandey's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Vice-President -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <div class="member-avatar">TC</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Thaneshwor Chaudhary</h4>
-              <p class="member-role">Vice-President</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Thaneshwor Chaudhary's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Thaneshwor Chaudhary's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Secretary -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <div class="member-avatar">AA</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Anushka Aryal</h4>
-              <p class="member-role">Secretary</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Anushka Aryal's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Anushka Aryal's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Joint Secretary -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <div class="member-avatar">AB</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Apekchhaya Bhattarai</h4>
-              <p class="member-role">Joint Secretary</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Apekchhaya Bhattarai's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Apekchhaya Bhattarai's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Vice Secretary -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <div class="member-avatar">PD</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Praphul Dahal</h4>
-              <p class="member-role">Vice Secretary</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Praphul Dahal's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Praphul Dahal's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Treasurer -->
-          <div class="team-card exec-card">
-            <div class="member-avatar-container">
-              <div class="member-avatar">AK</div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Aayusha Kunwor</h4>
-              <p class="member-role">Treasurer</p>
-              <div class="member-links">
-                <!-- TODO: wire up later with real links -->
-                <a href="#" class="member-social-icon" aria-label="Aayusha Kunwor's LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="#" class="member-social-icon" aria-label="Aayusha Kunwor's GitHub">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h3 class="team-subheading">Club Members</h3>
-        <div class="members-grid">
-          <!-- Member 1 -->
-          <div class="member-card-small">
-            <span class="member-initials">NM</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Nistha Maharjan</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 2 -->
-          <div class="member-card-small">
-            <span class="member-initials">PR</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Prem Rai</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 3 -->
-          <div class="member-card-small">
-            <span class="member-initials">KS</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Kripa Shrestha</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 4 -->
-          <div class="member-card-small">
-            <span class="member-initials">SB</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Sandesh Bhatta</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 5 -->
-          <div class="member-card-small">
-            <span class="member-initials">ST</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Santosh Kumar Tharu</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 6 -->
-          <div class="member-card-small">
-            <span class="member-initials">AP</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Aayush Paudel</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 7 -->
-          <div class="member-card-small">
-            <span class="member-initials">DS</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Dipansh Sunar</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 8 -->
-          <div class="member-card-small">
-            <span class="member-initials">NS</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Niraj Shah</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 9 -->
-          <div class="member-card-small">
-            <span class="member-initials">SJ</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Suraj Joshi</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 10 -->
-          <div class="member-card-small">
-            <span class="member-initials">AL</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Abishma Lamichhane</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 11 -->
-          <div class="member-card-small">
-            <span class="member-initials">AA</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Ankita Adhikari</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 12 -->
-          <div class="member-card-small">
-            <span class="member-initials">JD</span>
-            <div class="member-details-small">
-              <span class="member-name-small">John Dhakal</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 13 -->
-          <div class="member-card-small">
-            <span class="member-initials">KK</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Kishor Kafle</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 14 -->
-          <div class="member-card-small">
-            <span class="member-initials">KT</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Krijal Tandukar</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 15 -->
-          <div class="member-card-small">
-            <span class="member-initials">MP</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Mohan Paudel</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 16 -->
-          <div class="member-card-small">
-            <span class="member-initials">PT</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Pranil Tandukar</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 17 -->
-          <div class="member-card-small">
-            <span class="member-initials">PP</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Prasubh Pokharel</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-          <!-- Member 18 -->
-          <div class="member-card-small">
-            <span class="member-initials">SN</span>
-            <div class="member-details-small">
-              <span class="member-name-small">Sakshyam Nepal</span>
-              <span class="member-role-small">Member</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+          <div class="members-grid" id="membersGrid"></div>
     <!-- 6. Contact & Membership Section -->
     <section id="contact" class="contact-section">
       <div class="container">
@@ -588,14 +373,15 @@
             <div class="info-block">
               <h3>Office Location</h3>
               <p>Department of Electronics and Computer Engineering<br>
-              Advanced College of Engineering and Management (ACEM)<br>
-              Bhuwaneshwari Marg, Kalanki-14, Kathmandu, Nepal</p>
+                Advanced College of Engineering and Management (ACEM)<br>
+                Bhuwaneshwari Marg, Kalanki-14, Kathmandu, Nepal</p>
             </div>
-            
+
             <div class="info-block">
               <h3>Contact Details</h3>
               <p>Email: <a href="mailto:info@acem.edu.np" class="contact-link">info@acem.edu.np</a><br>
-              Phone: <span class="phone-placeholder">+977-1-XXXXXXX</span> <span class="placeholder-label">(dummy)</span></p>
+                Phone: <span class="phone-placeholder">+977-1-XXXXXXX</span> <span
+                  class="placeholder-label">(dummy)</span></p>
             </div>
 
             <!-- Sleek Static Map Placeholder -->
@@ -604,15 +390,16 @@
                 <!-- Abstract map grids -->
                 <svg viewBox="0 0 400 200" fill="none" class="simulated-map-svg">
                   <!-- Roads -->
-                  <path d="M 0 50 Q 200 40 400 60 M 0 150 Q 150 160 400 130 M 100 0 L 120 200 M 300 0 L 280 200" stroke="#E0E0E0" stroke-width="4"/>
+                  <path d="M 0 50 Q 200 40 400 60 M 0 150 Q 150 160 400 130 M 100 0 L 120 200 M 300 0 L 280 200"
+                    stroke="#E0E0E0" stroke-width="4" />
                   <!-- Rivers or green patches -->
-                  <rect x="200" y="80" width="60" height="40" rx="8" fill="#E8F5E9" opacity="0.6"/>
-                  <rect x="50" y="80" width="40" height="50" rx="8" fill="#E8F5E9" opacity="0.6"/>
-                  
+                  <rect x="200" y="80" width="60" height="40" rx="8" fill="#E8F5E9" opacity="0.6" />
+                  <rect x="50" y="80" width="40" height="50" rx="8" fill="#E8F5E9" opacity="0.6" />
+
                   <!-- College Marker Pin -->
                   <g class="map-pin-group">
-                    <circle cx="200" cy="90" r="14" fill="#B0263A" opacity="0.2"/>
-                    <circle cx="200" cy="90" r="6" fill="#B0263A"/>
+                    <circle cx="200" cy="90" r="14" fill="#B0263A" opacity="0.2" />
+                    <circle cx="200" cy="90" r="6" fill="#B0263A" />
                   </g>
                 </svg>
                 <div class="map-overlay-info">
@@ -621,40 +408,49 @@
                 </div>
               </div>
               <div class="map-cta-bar">
-                <a href="https://www.google.com/maps/search/?api=1&query=Advanced+College+of+Engineering+and+Management+Kalanki+Kathmandu" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline map-external-link">
+                <a href="https://www.google.com/maps/search/?api=1&query=Advanced+College+of+Engineering+and+Management+Kalanki+Kathmandu"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline map-external-link">
                   <span>Open in Google Maps</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather-external-link">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
                 </a>
               </div>
             </div>
           </div>
-          
+
           <!-- Right Column: Static Contact Form -->
           <div class="contact-form-panel">
             <h3 class="form-title">Send a Message</h3>
             <p class="form-subtitle">For workshop inquiries, collaborations, or general questions, drop us a line.</p>
-            
-            <form id="contactForm" class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Notice: Frontend only. Form submission is a placeholder.');">
+
+            <form id="contactForm" class="contact-form" action="#" method="POST"
+              onsubmit="event.preventDefault(); alert('Notice: Frontend only. Form submission is a placeholder.');">
               <div class="form-group">
                 <label for="form-name">Full Name</label>
                 <input type="text" id="form-name" name="name" required placeholder="John Doe">
               </div>
-              
+
               <div class="form-group">
                 <label for="form-email">Email Address</label>
                 <input type="email" id="form-email" name="email" required placeholder="john@example.com">
               </div>
-              
+
               <div class="form-group">
                 <label for="form-subject">Subject</label>
                 <input type="text" id="form-subject" name="subject" required placeholder="Workshop Inquiry">
               </div>
-              
+
               <div class="form-group">
                 <label for="form-message">Message</label>
-                <textarea id="form-message" name="message" rows="5" required placeholder="Write your message details here..."></textarea>
+                <textarea id="form-message" name="message" rows="5" required
+                  placeholder="Write your message details here..."></textarea>
               </div>
-              
+
               <!-- Form Submit (Static / Wire up later) -->
               <!-- TODO: wire up later (e.g. Formspree, EmailJS or backend API) -->
               <button type="submit" class="btn btn-primary btn-block form-submit-btn">Send Message</button>
@@ -676,9 +472,10 @@
             <span class="footer-logo-subtitle">ACEM</span>
           </div>
         </a>
-        <p class="footer-desc">Project Association for Computer and Electronics — student-led innovation club at Department of Electronics and Computer Engineering, ACEM, Kalanki, Kathmandu.</p>
+        <p class="footer-desc">Project Association for Computer and Electronics — student-led innovation club at
+          Department of Electronics and Computer Engineering, ACEM, Kalanki, Kathmandu.</p>
       </div>
-      
+
       <div class="footer-nav-section">
         <h4 class="footer-heading">Quick Links</h4>
         <ul class="footer-links-list">
@@ -689,30 +486,51 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      
+
       <div class="footer-social-section">
         <h4 class="footer-heading">Follow Us</h4>
         <div class="social-icons-wrapper">
           <!-- Facebook -->
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather-facebook">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
           </a>
           <!-- Instagram -->
-          <a href="https://www.instagram.com/pace_acem/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          <a href="https://www.instagram.com/pace_acem/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather-instagram">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
           </a>
           <!-- GitHub -->
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather-github">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
           </a>
         </div>
       </div>
     </div>
-    
+
     <div class="footer-bottom">
       <div class="container footer-bottom-container">
-        <p class="copyright-text">&copy; 2026 PACE (Project Association for Computer and Electronics), Department of ECE, ACEM. All Rights Reserved.</p>
-        <p class="credit-text">Developed with <span class="heart-icon">&hearts;</span> by <a href="#members" class="credit-link">PACE Members</a></p>
+        <p class="copyright-text">&copy; 2026 PACE (Project Association for Computer and Electronics), Department of
+          ECE, ACEM. All Rights Reserved.</p>
+        <p class="credit-text">Developed with <span class="heart-icon">&hearts;</span> by <a href="#members"
+            class="credit-link">PACE Members</a></p>
       </div>
     </div>
   </footer>
@@ -720,4 +538,5 @@
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
+
 </html>
