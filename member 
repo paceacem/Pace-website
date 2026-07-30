@@ -1,0 +1,30 @@
+// Members Data
+// ==========================================
+const members = [
+  { name: "Biraj Pandey", role: "President", photo: "" },
+  { name: "Thaneshwor Chaudhary", role: "Vice-President", photo: "" },
+  { name: "Anushka Aryal", role: "Secretary", photo: "" },
+  { name: "Apekchhaya Bhattarai", role: "Joint Secretary", photo: "" },
+  { name: "Praphul Dahal", role: "Vice Secretary", photo: "" },
+  { name: "Aayusha Kunwor", role: "Treasurer", photo: "" },
+  { name: "Nistha Maharjan", role: "Member", photo: "" },
+  { name: "Prem Rai", role: "Member", photo: "" },
+  { name: "Kripa Shrestha", role: "Member", photo: "" },
+  { name: "Sandesh Bhatta", role: "Member", photo: "" },
+  { name: "Santosh Kumar Tharu", role: "Member", photo: "" },
+  { name: "Aayush Paudel", role: "Member", photo: "" },
+  { name: "Dipansh Sunar", role: "Member", photo: "" },
+  { name: "Niraj Shah", role: "Member", photo: "" },
+  { name: "Suraj Joshi", role: "Member", photo: "" },
+  { name: "Abishma Lamichhane", role: "Member", photo: "" },
+  { name: "Ankita Adhikari", role: "Member", photo: "" },
+  { name: "John Dhakal", role: "Member", photo: "" },
+  { name: "Kishor Kafle", role: "Member", photo: "" },
+  { name: "Krijal Tandukar", role: "Member", photo: "" },
+  { name: "Mohan Paudel", role: "Member", photo: "" },
+  { name: "Pranil Tandukar", role: "Member", photo: "" },
+  { name: "Prasubh Pokharel", role: "Member", photo: "" },
+  { name: "Sakshyam Nepal", role: "Member", photo: "" },
+];
+
+

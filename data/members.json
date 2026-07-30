@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Biraj Pandey",
+    "role": "President",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 2,
+    "name": "Thaneshwor Chaudhary",
+    "role": "Vice-President",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 3,
+    "name": "Anushka Aryal",
+    "role": "Secretary",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 4,
+    "name": "Apekchhaya Bhattarai",
+    "role": "Joint Secretary",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 5,
+    "name": "Praphul Dahal",
+    "role": "Vice Secretary",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 6,
+    "name": "Aayusha Kunwor",
+    "role": "Treasurer",
+    "category": "executive",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 7,
+    "name": "Nistha Maharjan",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 8,
+    "name": "Prem Rai",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 9,
+    "name": "Kripa Shrestha",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 10,
+    "name": "Sandesh Bhatta",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/sandesh.jpg",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 11,
+    "name": "Santosh Kumar Tharu",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 12,
+    "name": "Aayush Paudel",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 13,
+    "name": "Dipansh Sunar",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 14,
+    "name": "Niraj Shah",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 15,
+    "name": "Suraj Joshi",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 16,
+    "name": "Abishma Lamichhane",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 17,
+    "name": "Ankita Adhikari",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 18,
+    "name": "John Dhakal",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 19,
+    "name": "Kishor Kafle",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 20,
+    "name": "Krijal Tandukar",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 21,
+    "name": "Mohan Paudel",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 22,
+    "name": "Pranil Tandukar",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 23,
+    "name": "Prasubh Pokharel",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  },
+  {
+    "id": 24,
+    "name": "Sakshyam Nepal",
+    "role": "Member",
+    "category": "member",
+    "photo": "assets/members/placeholder.png",
+    "department": "Electronics & Computer Engineering"
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — PACE | ACEM</title>
+  <meta name="description" content="Browse PACE engineering projects across software, AI, robotics, IoT, embedded systems, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="projects" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-project-filter="all">All</button>
+          <button class="filter-btn" data-project-filter="software">Software</button>
+          <button class="filter-btn" data-project-filter="ai">AI</button>
+          <button class="filter-btn" data-project-filter="robotics">Robotics</button>
+          <button class="filter-btn" data-project-filter="iot">IoT</button>
+          <button class="filter-btn" data-project-filter="embedded">Embedded</button>
+          <button class="filter-btn" data-project-filter="electronics">Electronics</button>
+        </div>
+        <div class="cards-grid" id="projectsPageGrid"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Projects", "Engineering projects built by PACE members — from prototypes to competition-ready systems.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

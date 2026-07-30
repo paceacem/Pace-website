@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — PACE | ACEM</title>
+  <meta name="description" content="Explore upcoming and past PACE events including hackathons, workshops, training sessions, and guest lectures.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="events" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" data-tabs>
+          <button class="filter-btn active" data-event-filter="all">All Events</button>
+          <button class="filter-btn" data-event-filter="upcoming">Upcoming</button>
+          <button class="filter-btn" data-event-filter="past">Past Events</button>
+        </div>
+
+        <div class="cards-grid" id="eventsPageGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Event Types</span>
+          <h2 class="section-title">What We Organize</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card reveal"><h3 class="feature-card-title">Hackathons</h3><p class="feature-card-text">Intensive build sessions where teams prototype solutions under time constraints.</p></div>
+          <div class="feature-card reveal"><h3 class="feature-card-title">Workshops</h3><p class="feature-card-text">Hands-on sessions covering embedded systems, programming, and system design.</p></div>
+          <div class="feature-card reveal"><h3 class="feature-card-title">Training</h3><p class="feature-card-text">Structured skill-building programs for competitions and technical festivals.</p></div>
+          <div class="feature-card reveal"><h3 class="feature-card-title">Competitions</h3><p class="feature-card-text">Internal and external contests that challenge engineering problem-solving.</p></div>
+          <div class="feature-card reveal"><h3 class="feature-card-title">Guest Sessions</h3><p class="feature-card-text">Talks and seminars from faculty, alumni, and industry professionals.</p></div>
+          <div class="feature-card reveal"><h3 class="feature-card-title">Collaborations</h3><p class="feature-card-text">Joint events with ACEM clubs like ARC and other technical communities.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Events", "Hackathons, workshops, training, and competitions that bring our community together.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

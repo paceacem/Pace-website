@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join PACE — ACEM</title>
+  <meta name="description" content="Join PACE at ACEM. Learn about membership benefits, the application process, and become part of our engineering community.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="join" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="about-content">
+          <div class="content-block reveal">
+            <h2>Why Join PACE?</h2>
+            <p>Engineering education extends beyond textbooks. PACE gives you a space to build real projects, learn from peers, compete nationally, and grow as a leader — all within a supportive community at ACEM.</p>
+            <ul class="benefits-list">
+              <li>Hands-on workshops in software, electronics, and embedded systems</li>
+              <li>Project teams with mentorship and portfolio-building opportunities</li>
+              <li>Competition preparation for national and international tech festivals</li>
+              <li>Leadership roles that develop responsibility and initiative</li>
+              <li>Collaboration with faculty, alumni, and industry partners</li>
+              <li>A community of curious, disciplined, and creative engineers</li>
+            </ul>
+          </div>
+          <div class="about-meta-box reveal">
+            <div class="meta-item">
+              <span class="meta-label">Step 1</span>
+              <span class="meta-value">Express your interest via the form below</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Step 2</span>
+              <span class="meta-value">Attend an orientation session</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Step 3</span>
+              <span class="meta-value">Participate in an introductory activity</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Step 4</span>
+              <span class="meta-value">Become an active PACE member</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="contact-form-panel reveal" style="max-width:640px; margin:0 auto;">
+          <h3 class="form-title">Apply to Join</h3>
+          <p class="form-subtitle">Tell us about yourself and why you'd like to join PACE.</p>
+          <form id="contactForm" class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="form-name">Full Name</label>
+              <input type="text" id="form-name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="form-year">Year of Study</label>
+              <select id="form-year" name="year" required>
+                <option value="">Select year</option>
+                <option value="1">First Year</option>
+                <option value="2">Second Year</option>
+                <option value="3">Third Year</option>
+                <option value="4">Fourth Year</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="form-message">Why do you want to join PACE?</label>
+              <textarea id="form-message" name="message" rows="4" required placeholder="Share your interests and goals..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">FAQ</span>
+          <h2 class="section-title">Membership Questions</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="joinFaq"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Join PACE", "Become part of a community where engineers learn, build, and lead together.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

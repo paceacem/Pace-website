@@ -1,0 +1,35 @@
+[
+  {
+    "id": "evt-01",
+    "title": "Protobytes Hackathon (TBD)",
+    "date": "TBD",
+    "location": "ACEM Campus, Kalanki",
+    "category": "Hackathon",
+    "status": "Upcoming (Placeholder)",
+    "description": "Our flagship annual hackathon event. Students will collaborate in teams to conceptualize and develop hardware/software prototypes solving local challenges within a limited timeframe.",
+    "isPlaceholder": true,
+    "link": "#"
+  },
+  {
+    "id": "evt-02",
+    "title": "Embedded Systems Workshop (TBD)",
+    "date": "TBD",
+    "location": "ECE Hardware Lab",
+    "category": "Workshop",
+    "status": "Upcoming (Placeholder)",
+    "description": "A hands-on technical boot camp focusing on microcontrollers (Arduino/ESP32), sensor interfacing, circuit assembly on breadboards, and introductory IoT integration.",
+    "isPlaceholder": true,
+    "link": "#"
+  },
+  {
+    "id": "evt-03",
+    "title": "Git & Collaborative Dev Seminar (TBD)",
+    "date": "TBD",
+    "location": "Seminar Hall, ACEM",
+    "category": "Seminar",
+    "status": "Upcoming (Placeholder)",
+    "description": "An interactive seminar on using Git for team project management. Learn basic command lines, merge conflict resolutions, and effective open-source contribution workflows.",
+    "isPlaceholder": true,
+    "link": "#"
+  }
+]
