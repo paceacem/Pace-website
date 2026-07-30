@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — PACE | ACEM</title>
+  <meta name="description" content="Browse photos from PACE events, projects, workshops, competitions, and campus activities.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="gallery" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-gallery-filter="all">All</button>
+          <button class="filter-btn" data-gallery-filter="events">Events</button>
+          <button class="filter-btn" data-gallery-filter="projects">Projects</button>
+          <button class="filter-btn" data-gallery-filter="competitions">Competitions</button>
+          <button class="filter-btn" data-gallery-filter="campus">Campus</button>
+          <button class="filter-btn" data-gallery-filter="workshops">Workshops</button>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <div class="lightbox-placeholder">Image preview placeholder</div>
+      <h3 class="lightbox-title"></h3>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Gallery", "Moments from workshops, projects, competitions, and campus life.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

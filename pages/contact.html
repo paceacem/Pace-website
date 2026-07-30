@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — PACE | ACEM</title>
+  <meta name="description" content="Get in touch with PACE at ACEM. Contact form, location, email, and frequently asked questions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="contact" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info-panel reveal">
+            <div class="info-block">
+              <h3>Office Location</h3>
+              <p>Department of Computer and Electronics Engineering<br>Advanced College of Engineering and Management (ACEM)<br>Bhuwaneshwari Marg, Kalanki-14, Kathmandu, Nepal</p>
+            </div>
+            <div class="info-block">
+              <h3>Contact Details</h3>
+              <p>Email: <a href="mailto:info@acem.edu.np" class="contact-link">info@acem.edu.np</a><br>Phone: +977-1-XXXXXXX</p>
+            </div>
+            <div class="map-placeholder-box">
+              <div class="map-visual-simulation" aria-hidden="true">
+                <svg viewBox="0 0 400 200" fill="none" class="simulated-map-svg">
+                  <path d="M 0 50 Q 200 40 400 60 M 0 150 Q 150 160 400 130 M 100 0 L 120 200 M 300 0 L 280 200" stroke="#E2E8F0" stroke-width="4"/>
+                  <circle cx="200" cy="90" r="6" fill="#2563EB"/>
+                </svg>
+                <div class="map-overlay-info">
+                  <span class="map-location-title">Advanced College of Engineering &amp; Management</span>
+                  <span class="map-location-coords">Kalanki, Kathmandu</span>
+                </div>
+              </div>
+              <div class="map-cta-bar">
+                <a href="https://www.google.com/maps/search/?api=1&query=Advanced+College+of+Engineering+and+Management+Kalanki+Kathmandu" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Open in Google Maps</a>
+              </div>
+            </div>
+            <div class="social-icons-wrapper">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook" style="background:var(--color-surface); color:var(--color-primary); border:1px solid var(--color-border);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/pace_acem/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram" style="background:var(--color-surface); color:var(--color-primary); border:1px solid var(--color-border);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg>
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub" style="background:var(--color-surface); color:var(--color-primary); border:1px solid var(--color-border);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-panel reveal">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-subtitle">For workshop inquiries, collaborations, or general questions.</p>
+            <form id="contactForm" class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="form-name">Full Name</label>
+                <input type="text" id="form-name" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email Address</label>
+                <input type="email" id="form-email" name="email" required placeholder="you@example.com">
+              </div>
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" name="subject" required placeholder="How can we help?">
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="5" required placeholder="Your message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">FAQ</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="contactFaq"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Contact", "Reach out for collaborations, inquiries, or to connect with the PACE community.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

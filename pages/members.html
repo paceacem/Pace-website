@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members — PACE | ACEM</title>
+  <meta name="description" content="Meet the PACE faculty advisors, executive committee, core team, and volunteers at ACEM.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assests/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="members" data-base="../">
+  <div id="site-nav"></div>
+  <main>
+    <div id="pageHero"></div>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="subsection-title reveal">Faculty Advisors</h2>
+        <div class="profile-grid" id="facultyGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="subsection-title reveal">Executive Committee</h2>
+        <div class="profile-grid" id="executiveGrid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="subsection-title reveal">Core Team</h2>
+        <div class="profile-grid" id="coreTeamGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="subsection-title reveal">Volunteers</h2>
+        <div class="profile-grid" id="volunteersGrid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="content-block reveal" style="text-align:center; max-width:640px; margin:0 auto;">
+          <h2>Alumni Network</h2>
+          <p>Our alumni section is coming soon. Graduates who were part of PACE will be featured here to inspire and mentor current members.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/data.js"></script>
+  <script src="../js/components.js"></script>
+  <script>
+    document.getElementById("pageHero").innerHTML = renderPageHero("Members", "The people behind PACE — leaders, builders, and mentors driving our community forward.");
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
