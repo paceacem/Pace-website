@@ -1,0 +1,20 @@
+[
+  {
+    "id": "notice-01",
+    "title": "PACE Membership Process Announcement",
+    "date": "2026-07-01",
+    "category": "Membership",
+    "summary": "PACE membership selection is conducted annually for ECE department students at ACEM through interview-based evaluation.",
+    "contactPhone": "+977-1-0000000 (Placeholder)",
+    "contactEmail": "info@acem.edu.np",
+    "isPlaceholder": false
+  },
+  {
+    "id": "notice-02",
+    "title": "Upcoming Workshop Schedule (TBD)",
+    "date": "TBD",
+    "category": "Workshops",
+    "summary": "Detailed schedule for upcoming technical hands-on sessions will be posted once confirmed by the executive board.",
+    "isPlaceholder": true
+  }
+]

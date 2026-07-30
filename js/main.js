@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * PACE Website — Main Controller
  */
 
@@ -369,3 +370,12 @@ function renderJoinPage(base) {
   const faqSlot = document.getElementById("joinFaq");
   if (faqSlot) faqSlot.innerHTML = renderAccordion(PACE_DATA.joinFaqs, "join-faq");
 }
+=======
+ * PACE Website — Main Javascript Controller (Entry Point)
+ */
+import { App } from './app.js';
+
+document.addEventListener("DOMContentLoaded", () => {
+  App.init().catch(err => console.error("[PACE App Init Error]:", err));
+});
+>>>>>>> 43c7723 ( Optimizing the Folder Structure)

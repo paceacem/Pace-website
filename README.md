@@ -1,5 +1,6 @@
 # PACE Website
 
+<<<<<<< HEAD
 Official frontend for **PACE** (Project Association for Computer and Electronics) at Advanced College of Engineering and Management (ACEM), Kathmandu, Nepal.
 
 ## Tech Stack
@@ -57,3 +58,19 @@ Then open `http://localhost:8000` in your browser.
 Content in `js/data.js` is structured for easy migration to a CMS, API, or framework (React/Vue). Form submissions are frontend-only placeholders ready for Formspree, EmailJS, or a backend API.
 
 ## Developed by PACE Member Sandesh Bhatta 
+=======
+Official website for the **Project Association for Computer and Electronics (PACE)** — student-led technical club under the Department of Electronics and Computer Engineering at Advanced College of Engineering and Management (ACEM), Kalanki, Kathmandu, Nepal.
+
+## Technology Stack
+- **Frontend**: HTML5, Vanilla CSS3 (Custom Properties), Modern JavaScript (ES Modules)
+- **Data**: Client-side JSON datasets (`data/*.json`) consumed via thin API wrapper (`js/services/api.js`)
+- **Structure**: Modular architecture with scaffolds for future `backend/`, `admin/`, and `api/` layers
+
+## Quick Start
+Open `index.html` in any modern browser, or run a local web server:
+```bash
+npx serve .
+```
+
+For complete architectural details, see [`docs/architecture.md`](docs/architecture.md).
+>>>>>>> 43c7723 ( Optimizing the Folder Structure)

@@ -1,0 +1,15 @@
+{
+  "name": "PACE - Project Association for Computer and Electronics",
+  "short_name": "PACE ACEM",
+  "icons": [
+    {
+      "src": "/assets/logos/paceofficallogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#B0263A"
+}

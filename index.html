@@ -5,77 +5,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PACE — Project Association for Computer and Electronics | ACEM</title>
-  <meta name="description" content="PACE is a student-led technical community at ACEM that empowers students to learn, build, innovate, and develop practical engineering skills beyond the classroom.">
+  <meta name="description"
+    content="PACE is a student-led technical community at ACEM that empowers students to learn, build, innovate, and develop practical engineering skills beyond the classroom.">
   <meta name="keywords" content="PACE, ACEM, Computer Engineering, Electronics, Robotics, IoT, AI, Kathmandu, Nepal">
   <meta name="author" content="PACE ACEM">
   <meta property="og:type" content="website">
   <meta property="og:title" content="PACE — Project Association for Computer and Electronics">
   <meta property="og:image" content="assests/paceofficallogo.png ">
-  <meta property="og:description" content="Empowering future engineers through innovation and practical learning at ACEM, Kathmandu.">
+  <meta property="og:description"
+    content="Empowering future engineers through innovation and practical learning at ACEM, Kathmandu.">
   <meta property="og:url" content="https://acem.edu.np">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="assests/favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assests/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assests/favicon_io/favicon-16x16.png">
-  <link rel="shortcut icon" href="assests/favicon_io/favicon.ico">
-  <link rel="manifest" href="assests/favicon_io/site.webmanifest">
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/icons/favicon_io/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/icons/favicon_io/site.webmanifest">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body data-page="home" data-base="">
+<body data-page="home">
 
-  <div id="site-nav"></div>
+  <!-- 1. Sticky Navigation Header -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand" aria-label="PACE Home">
+        <img src="assets/logos/paceofficallogo.png" alt="PACE Logo" class="nav-logo">
+        <div class="brand-text">
+          <span class="brand-title">PACE</span>
+          <span class="brand-subtitle">ACEM</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA & Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Join PACE CTA (Links to membership process note) -->
+        <a href="about.html#membership" class="btn btn-sm btn-primary">Join PACE</a>
+        <button class="hamburger-menu" id="hamburgerBtn" aria-expanded="false" aria-controls="navMenu"
+          aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
   <main>
     <!-- Hero -->
     <section id="home" class="hero-section">
       <div class="hero-bg-pattern" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" fill="none" class="circuit-svg">
-          <path d="M 0 100 H 1440 M 0 300 H 1440 M 0 500 H 1440 M 0 700 H 1440" stroke="rgba(30, 58, 95, 0.04)" stroke-width="1"/>
-          <path d="M 200 0 V 800 M 600 0 V 800 M 1000 0 V 800 M 1400 0 V 800" stroke="rgba(30, 58, 95, 0.04)" stroke-width="1"/>
-          <path d="M 150 150 L 300 150 L 350 200 L 500 200 L 550 250 M 500 200 L 500 350 L 450 400" stroke="rgba(37, 99, 235, 0.1)" stroke-width="2" stroke-linecap="round"/>
-          <path d="M 1200 650 L 1050 650 L 1000 600 L 800 600 L 750 550 M 800 600 L 800 450 L 850 400" stroke="rgba(6, 182, 212, 0.12)" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="150" cy="150" r="4" fill="#2563EB" opacity="0.4"/>
-          <circle cx="550" cy="250" r="4" fill="#06B6D4" opacity="0.4"/>
-          <circle cx="1200" cy="650" r="4" fill="#1E3A5F" opacity="0.3"/>
+          <path d="M 0 100 H 1440 M 0 300 H 1440 M 0 500 H 1440 M 0 700 H 1440" stroke="rgba(77, 77, 77, 0.03)"
+            stroke-width="1" />
+          <path d="M 200 0 V 800 M 600 0 V 800 M 1000 0 V 800 M 1400 0 V 800" stroke="rgba(77, 77, 77, 0.03)"
+            stroke-width="1" />
+          <path d="M 150 150 L 300 150 L 350 200 L 500 200 L 550 250 M 500 200 L 500 350 L 450 400"
+            stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round" />
+          <path d="M 1200 650 L 1050 650 L 1000 600 L 800 600 L 750 550 M 800 600 L 800 450 L 850 400"
+            stroke="rgba(176, 38, 58, 0.08)" stroke-width="2" stroke-linecap="round" />
+          <circle cx="150" cy="150" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="550" cy="250" r="4" fill="#B0263A" opacity="0.4" />
+          <circle cx="450" cy="400" r="4" fill="#4D4D4D" opacity="0.4" />
+          <circle cx="1200" cy="650" r="4" fill="#4D4D4D" opacity="0.4" />
         </svg>
       </div>
 
       <div class="container hero-container">
-        <div class="hero-content reveal">
-          <h1 class="hero-title">Empowering Future Engineers Through Innovation &amp; Practical Learning</h1>
-          <p class="hero-subtitle">PACE is a student-led technical community at ACEM that empowers students to learn, build, innovate, collaborate, and develop practical engineering skills beyond the classroom.</p>
+        <div class="hero-content">
+          <span class="section-tag">Dept. of Electronics &amp; Computer Engineering, ACEM</span>
+          <h1 class="hero-title">Advancing Practical Engineering &amp; Innovation</h1>
+          <p class="hero-subtitle">PACE is the student-led technical association of Advanced College of Engineering
+            &amp; Management, empowering future tech pioneers through hands-on workshops, project teams, and technical
+            competitions.</p>
+
           <div class="hero-actions">
-            <!-- <a href="pages/join.html" class="btn btn-primary"> PACE</a> -->
-            <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+            <!-- Hero CTAs -->
+            <a href="projects.html" class="btn btn-primary">Explore Projects</a>
+            <a href="#members" class="btn btn-outline">Meet the Team</a>
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-hidden="true">
+        <div class="hero-visual" aria-hidden="true">
           <div class="circuit-board-wrapper">
             <svg viewBox="0 0 500 500" fill="none" class="interactive-circuit">
-              <rect x="180" y="180" width="140" height="140" rx="12" fill="#1E3A5F" stroke="#2563EB" stroke-width="4"/>
-              <rect x="200" y="200" width="100" height="100" rx="8" fill="#152A45"/>
-              <path d="M 250 220 C 235 220 225 230 225 242.5 C 225 251.25 231.25 258.75 240 261.25 L 240 275 L 245 280 H 255 L 260 275 L 260 261.25 C 268.75 258.75 275 251.25 275 242.5 C 275 230 265 220 250 220 Z" fill="#06B6D4"/>
-              <circle cx="250" cy="242" r="6" fill="#FFFFFF"/>
-              <g stroke="#CBD5E1" stroke-width="3" stroke-linecap="round">
-                <path d="M 210 180 V 130 H 160"/><path d="M 250 180 V 110"/><path d="M 290 180 V 130 H 340"/>
-                <path d="M 210 320 V 370 H 150"/><path d="M 250 320 V 390"/><path d="M 290 320 V 370 H 350"/>
-                <path d="M 180 210 H 130 V 160"/><path d="M 180 250 H 100"/><path d="M 180 290 H 130 V 340"/>
-                <path d="M 320 210 H 370 V 170"/><path d="M 320 250 H 400"/><path d="M 320 290 H 370 V 330"/>
+              <rect x="180" y="180" width="140" height="140" rx="12" fill="#4D4D4D" stroke="#B0263A" stroke-width="4" />
+              <rect x="200" y="200" width="100" height="100" rx="8" fill="#2B2B2B" />
+              <path
+                d="M 250 220 C 235 220 225 230 225 242.5 C 225 251.25 231.25 258.75 240 261.25 L 240 275 L 245 280 H 255 L 260 275 L 260 261.25 C 268.75 258.75 275 251.25 275 242.5 C 275 230 265 220 250 220 Z"
+                fill="#B0263A" />
+              <circle cx="250" cy="242" r="6" fill="#FAFAFA" />
+              <g stroke="#C7C7C7" stroke-width="3" stroke-linecap="round">
+                <path d="M 210 180 V 130 H 160" />
+                <path d="M 250 180 V 110" />
+                <path d="M 290 180 V 130 H 340" />
+                <path d="M 210 320 V 370 H 150" />
+                <path d="M 250 320 V 390" />
+                <path d="M 290 320 V 370 H 350" />
+                <path d="M 180 210 H 130 V 160" />
+                <path d="M 180 250 H 100" />
+                <path d="M 180 290 H 130 V 340" />
+                <path d="M 320 210 H 370 V 170" />
+                <path d="M 320 250 H 400" />
+                <path d="M 320 290 H 370 V 330" />
               </g>
-              <circle cx="160" cy="130" r="5" fill="#2563EB"/><circle cx="250" cy="110" r="5" fill="#1E3A5F"/>
-              <circle cx="100" cy="250" r="6" fill="#06B6D4"/><circle cx="400" cy="250" r="6" fill="#2563EB"/>
+              <circle cx="160" cy="130" r="5" fill="#B0263A" />
+              <circle cx="250" cy="110" r="5" fill="#4D4D4D" />
+              <circle cx="340" cy="130" r="5" fill="#B0263A" />
+              <circle cx="150" cy="370" r="5" fill="#4D4D4D" />
+              <circle cx="250" cy="390" r="5" fill="#B0263A" />
+              <circle cx="350" cy="370" r="5" fill="#C7C7C7" />
+              <circle cx="100" cy="250" r="6" fill="#B0263A" />
+              <circle cx="400" cy="250" r="6" fill="#B0263A" />
             </svg>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About Preview -->
-    <section id="about" class="section">
+    <!-- 3. About Section Preview -->
+    <section id="about" class="about-section">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag">Who We Are</span>
@@ -84,17 +151,27 @@
         </div>
 
         <div class="about-content">
-          <div class="about-text-wrapper reveal">
-            <p class="about-lead">PACE exists because engineering education should extend beyond textbooks.</p>
-            <p class="about-body">We are the official student-led technical community under the Department of Computer and Electronics Engineering at Advanced College of Engineering and Management (ACEM), Kathmandu. Our mission is to create opportunities where innovators build ideas, curious learners explore new technologies, and teams solve real engineering problems.</p>
-            <p class="about-body">Students benefit through hands-on workshops, project mentorship, competition preparation, and leadership experience that bridges classroom theory with practical impact.</p>
-            <a href="pages/about.html" class="btn btn-outline">Read More</a>
+          <div class="about-text-wrapper">
+            <p class="about-lead">
+              PACE (Project Association for Computer and Electronics) is a student-led technical club under the
+              Department of Electronics and Computer Engineering at Advanced College of Engineering and Management
+              (ACEM), Kathmandu.
+            </p>
+            <p class="about-body">
+              Our mission is to provide hands-on learning opportunities by exploring practical implementation of topics
+              beyond the regular curriculum through workshops, projects, and technical competitions.
+            </p>
+
+            <!-- About Read More CTA -->
+            <div style="margin-top: var(--space-md);">
+              <a href="about.html" class="btn btn-outline">Read More &rarr;</a>
+            </div>
           </div>
 
           <div class="about-meta-box reveal">
             <div class="meta-item">
               <span class="meta-label">Established</span>
-              <span class="meta-value">Since 2000</span>
+              <span class="meta-value">Since 2018</span>
             </div>
             <div class="meta-item">
               <span class="meta-label">Affiliation</span>
@@ -109,127 +186,178 @@
       </div>
     </section>
 
-    <!-- Focus Areas -->
-    <section id="focus" class="section section-alt">
+    <!-- 4. Events Preview Section (3 Cards) -->
+    <section id="events" class="events-section">
       <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">What We Explore</span>
-          <h2 class="section-title">Focus Areas</h2>
-          <div class="section-divider"></div>
-          <p class="section-intro">Six domains where PACE members learn, build, and grow as engineers.</p>
-        </div>
-        <div class="feature-grid" id="focusAreasGrid"></div>
-      </div>
-    </section>
-
-    <!-- Events Preview -->
-    <section id="events" class="section">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Activities</span>
-          <h2 class="section-title">Latest Events</h2>
+        <div class="section-header">
+          <span class="section-tag">Activities &amp; Milestones</span>
+          <h2 class="section-title">Upcoming Club Events</h2>
           <div class="section-divider"></div>
         </div>
-        <div class="cards-grid" id="homeEventsGrid"></div>
-        <div class="section-cta reveal">
-          <a href="pages/events.html" class="btn btn-outline">View All Events</a>
-        </div>
-      </div>
-    </section>
 
-    <!-- Projects Preview -->
-    <section id="projects" class="section section-alt">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Innovation in Action</span>
-          <h2 class="section-title">Featured Projects</h2>
-          <div class="section-divider"></div>
-        </div>
-        <div class="cards-grid" id="homeProjectsGrid"></div>
-        <div class="section-cta reveal">
-          <a href="pages/projects.html" class="btn btn-outline">Explore Projects</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Members Preview -->
-    <section id="members" class="section">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Our Community</span>
-          <h2 class="section-title">Leadership Team</h2>
-          <div class="section-divider"></div>
-          <p class="section-intro">PACE is driven by student leaders who mentor, organize, and inspire the community.</p>
-        </div>
-        <div class="profile-grid" id="leadershipGrid"></div>
-        <div class="section-cta reveal">
-          <a href="pages/members.html" class="btn btn-outline">Meet the Team</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta-section">
-      <div class="container reveal">
-        <h2 class="cta-title">Ready to Build Something Meaningful?</h2>
-        <p class="cta-text">Join a community of engineers who learn by doing. Whether you're curious about coding, circuits, robotics, or AI — PACE is where your journey begins.</p>
-        <!-- <a href="pages/join.html" class="btn btn-primary">Become a Member</a> -->
-      </div>
-    </section>
-
-    <!-- Contact Preview -->
-    <section id="contact" class="section section-alt">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Get in Touch</span>
-          <h2 class="section-title">Contact Us</h2>
-          <div class="section-divider"></div>
-        </div>
-        <div class="contact-layout">
-          <div class="contact-info-panel reveal">
-            <div class="info-block">
-              <h3>Office Location</h3>
-              <p>Department of Computer and Electronics Engineering<br>Advanced College of Engineering and Management (ACEM)<br>Bhuwaneshwari Marg, Kalanki-14, Kathmandu, Nepal</p>
+        <div class="events-grid">
+          <!-- Card 1 -->
+          <div class="event-card">
+            <div class="event-status-tag">Coming Soon</div>
+            <div class="event-card-content">
+              <div class="event-meta">
+                <span class="event-date">Date: TBD</span>
+                <span class="event-location">ACEM Campus</span>
+              </div>
+              <h3 class="event-title">Protobytes Hackathon (TBD)</h3>
+              <p class="event-desc">Our flagship annual hackathon event. Students will collaborate in teams to
+                conceptualize and develop hardware/software prototypes solving local challenges.</p>
+              <!-- TODO: wire up later -->
+              <a href="events.html" class="btn btn-text-link">Learn More &rarr;</a>
             </div>
-            <div class="info-block">
-              <h3>Contact Details</h3>
-              <p>Email: <a href="mailto:info@acem.edu.np" class="contact-link">info@acem.edu.np</a></p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="event-card">
+            <div class="event-status-tag">Coming Soon</div>
+            <div class="event-card-content">
+              <div class="event-meta">
+                <span class="event-date">Date: TBD</span>
+                <span class="event-location">ECE Lab</span>
+              </div>
+              <h3 class="event-title">Embedded Systems Workshop (TBD)</h3>
+              <p class="event-desc">A hands-on technical boot camp focusing on microcontrollers (Arduino/ESP32), sensor
+                interfacing, circuit assembly on breadboards, and introductory IoT integration.</p>
+              <!-- TODO: wire up later -->
+              <a href="events.html" class="btn btn-text-link">Learn More &rarr;</a>
             </div>
-            <a href="pages/contact.html" class="btn btn-outline">Full Contact Page</a>
           </div>
-          <div class="contact-form-panel reveal">
-            <h3 class="form-title">Send a Message</h3>
-            <p class="form-subtitle">For workshop inquiries, collaborations, or general questions.</p>
-            <form id="contactForm" class="contact-form" action="#" method="POST">
-              <div class="form-group">
-                <label for="form-name">Full Name</label>
-                <input type="text" id="form-name" name="name" required placeholder="Your name">
+
+          <!-- Card 3 -->
+          <div class="event-card">
+            <div class="event-status-tag">Coming Soon</div>
+            <div class="event-card-content">
+              <div class="event-meta">
+                <span class="event-date">Date: TBD</span>
+                <span class="event-location">Seminar Hall</span>
               </div>
-              <div class="form-group">
-                <label for="form-email">Email Address</label>
-                <input type="email" id="form-email" name="email" required placeholder="you@example.com">
-              </div>
-              <div class="form-group">
-                <label for="form-subject">Subject</label>
-                <input type="text" id="form-subject" name="subject" required placeholder="How can we help?">
-              </div>
-              <div class="form-group">
-                <label for="form-message">Message</label>
-                <textarea id="form-message" name="message" rows="4" required placeholder="Your message..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-            </form>
+              <h3 class="event-title">Git &amp; Collaborative Dev Seminar (TBD)</h3>
+              <p class="event-desc">An interactive seminar on using Git for team project management. Learn basic command
+                lines, merge conflict resolutions, and effective open-source contribution workflows.</p>
+              <!-- TODO: wire up later -->
+              <a href="events.html" class="btn btn-text-link">Learn More &rarr;</a>
+            </div>
           </div>
+        </div>
+
+        <div class="events-footer-cta">
+          <!-- View All Events CTA -->
+          <a href="events.html" class="btn btn-outline">View All Events &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Executive Members Preview Section -->
+    <section id="members" class="members-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Executive Board</span>
+          <h2 class="section-title">Meet Our Leadership</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="members-grid" id="membersGrid">
+          <!-- Populated dynamically via js/pages/home.js -->
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-xl);">
+          <a href="about.html" class="btn btn-outline">View Full Roster &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Static Membership Info CTA -->
+    <section class="about-section" style="background-color: var(--color-white);">
+      <div class="container">
+        <div class="membership-note-card">
+          <div class="membership-note-title">PACE Annual Membership Process</div>
+          <p class="membership-note-text">
+            Membership selection is conducted annually for students of the Department of Electronics and Computer
+            Engineering (ECE) at ACEM through an interview-based selection process. There is no online application form
+            — notices are published officially on campus prior to recruitment rounds.
+          </p>
         </div>
       </div>
     </section>
   </main>
 
-  <div id="site-footer"></div>
+  <!-- 7. Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand-section">
+        <a href="index.html" class="footer-logo-wrapper" aria-label="PACE Home">
+          <img src="assets/logos/paceofficallogo.png" alt="PACE Logo" class="footer-logo">
+          <div class="footer-logo-text">
+            <span class="footer-logo-title">PACE</span>
+            <span class="footer-logo-subtitle">ACEM</span>
+          </div>
+        </a>
+        <p class="footer-desc">Project Association for Computer and Electronics — student-led technical association at
+          Department of Electronics and Computer Engineering, ACEM, Kalanki, Kathmandu.</p>
+      </div>
 
-  <script src="js/data.js"></script>
-  <script src="js/components.js"></script>
-  <script src="js/main.js"></script>
+      <div class="footer-nav-section">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-section">
+        <h4 class="footer-heading">Follow Us</h4>
+        <div class="social-icons-wrapper">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/pace_acem/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <!-- GitHub (Placeholder) -->
+          <a href="#" class="social-icon-btn" aria-label="GitHub (Placeholder)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">&copy; <span id="copyrightYear">2026</span> PACE, Dept. of ECE, ACEM. All Rights
+          Reserved.</p>
+        <p class="credit-text">Developed with <span class="heart-icon">&hearts;</span> by PACE Members</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Entry Script -->
+  <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

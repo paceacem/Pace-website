@@ -1,0 +1,32 @@
+[
+  {
+    "id": "proj-01",
+    "title": "Sample Project: Smart Campus Sensor Node (TBD)",
+    "category": "IoT & Embedded Systems",
+    "status": "Placeholder",
+    "description": "An experimental IoT environmental node design measuring ambient temperature, air quality, and noise levels across college grounds.",
+    "techStack": ["ESP32", "C++", "MQTT", "Node-RED"],
+    "isPlaceholder": true,
+    "link": "#"
+  },
+  {
+    "id": "proj-02",
+    "title": "Sample Project: Autonomous Line Follower (TBD)",
+    "category": "Robotics & Controls",
+    "status": "Placeholder",
+    "description": "Collaborative project initiative with ARC focusing on PID control algorithms and high-speed infrared array sensor tuning.",
+    "techStack": ["Arduino Nano", "PID Control", "IR Sensor Array"],
+    "isPlaceholder": true,
+    "link": "#"
+  },
+  {
+    "id": "proj-03",
+    "title": "Sample Project: AI Attendance Verification (TBD)",
+    "category": "Computer Vision",
+    "status": "Placeholder",
+    "description": "A student prototype exploring face detection algorithms for classroom management systems.",
+    "techStack": ["Python", "OpenCV", "TensorFlow Light"],
+    "isPlaceholder": true,
+    "link": "#"
+  }
+]
