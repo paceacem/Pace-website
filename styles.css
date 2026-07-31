@@ -1027,7 +1027,8 @@ img {
   height: 40px;
   width: auto;
   object-fit: contain;
-  /* Filter to make logo visible on dark background if needed. If it has transparent bg, standard works. */
+  border: 2px solid red;
+  background: yellow;
 }
 
 .footer-logo-text {
