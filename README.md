@@ -5,34 +5,36 @@ Official frontend for **PACE** (Project Association for Computer and Electronics
 
 - HTML5
 - CSS3 (design system with CSS variables)
-- Vanilla JavaScript (no frameworks)
+- Vanilla JavaScript with ES modules
+- Client-side JSON data loaded through a thin API wrapper
 
 ## Project Structure
 
 ```
-├── index.html          # Homepage
+├── index.html
+├── about.html
+├── events.html
+├── projects.html
+├── gallery.html
+├── contact.html
 ├── css/
-│   └── styles.css      # Design system & components
+│   └── main.css
 ├── js/
-│   ├── data.js         # Shared content (events, projects, members, etc.)
-│   ├── components.js   # Reusable UI (nav, footer, cards, accordion)
-│   └── main.js         # Page logic & interactions
-├── pages/
-│   ├── about.html
-│   ├── events.html
-│   ├── projects.html
-│   ├── members.html
-│   ├── gallery.html
-│   ├── achievements.html
-│   ├── resources.html
-│   ├── contact.html
-│   └── join.html
-└── assests/            # Logo, favicons, member photos
+│   ├── app.js
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   └── services/
+└── data/
+	├── events.json
+	├── members.json
+	├── notices.json
+	└── projects.json
 ```
 
 ## Local Development
 
-Serve the project with any static file server:
+Serve the project with any static file server. The JSON-backed pages use `fetch()`, so opening `index.html` directly from `file://` will leave those sections empty.
 
 ```bash
 python3 -m http.server 8000
@@ -51,24 +53,9 @@ Then open `http://localhost:8000` in your browser.
 - Lightbox for gallery items
 - SEO meta tags and semantic HTML
 
-## Future Scalability
+## Notes
 
-Content in `js/data.js` is structured for easy migration to a CMS, API, or framework (React/Vue). Form submissions are frontend-only placeholders ready for Formspree, EmailJS, or a backend API.
+- The live entrypoint is `js/main.js`, which now bootstraps the modular app in `js/app.js`.
+- For complete architectural details, see [`docs/architecture.md`](docs/architecture.md).
 
-## Developed by PACE Member Sandesh Bhatta 
-=======
-Official website for the **Project Association for Computer and Electronics (PACE)** — student-led technical club under the Department of Electronics and Computer Engineering at Advanced College of Engineering and Management (ACEM), Kalanki, Kathmandu, Nepal.
-
-## Technology Stack
-- **Frontend**: HTML5, Vanilla CSS3 (Custom Properties), Modern JavaScript (ES Modules)
-- **Data**: Client-side JSON datasets (`data/*.json`) consumed via thin API wrapper (`js/services/api.js`)
-- **Structure**: Modular architecture with scaffolds for future `backend/`, `admin/`, and `api/` layers
-
-## Quick Start
-Open `index.html` in any modern browser, or run a local web server:
-```bash
-npx serve .
-```
-
-For complete architectural details, see [`docs/architecture.md`](docs/architecture.md).
->>>>>>> 43c7723 ( Optimizing the Folder Structure)
+## Developed by PACE members
