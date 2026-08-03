@@ -37,7 +37,7 @@ function renderNav(activePage = "home") {
     <header class="navbar-header" id="siteHeader">
       <div class="nav-container">
         <a href="${homeHref}" class="nav-brand" aria-label="PACE Home">
-          <img src="${base}assests/paceofficallogo.png" alt="PACE Logo" class="nav-logo">
+          <img src="${base}assets/paceofficallogo.png" alt="PACE Logo" class="nav-logo">
           <div class="brand-text">
             <span class="brand-title">PACE</span>
             <span class="brand-subtitle">ACEM</span>
@@ -72,7 +72,7 @@ function renderFooter() {
       <div class="container footer-container">
         <div class="footer-brand-section">
           <a href="${base}index.html" class="footer-logo-wrapper" aria-label="PACE Home">
-            <img src="${base}assests/paceofficallogo.png" alt="PACE Logo" class="footer-logo">
+            <img src="${base}assets/paceofficallogo.png" alt="PACE Logo" class="footer-logo">
             <div class="footer-logo-text">
               <span class="footer-logo-title">PACE</span>
               <span class="footer-logo-subtitle">ACEM</span>

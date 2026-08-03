@@ -135,7 +135,7 @@ const PACE_DATA = {
     { name: "Nistha Maharjan", role: "Member", group: "Core Team", photo: "" },
     { name: "Prem Rai", role: "Member", group: "Core Team", photo: "" },
     { name: "Kripa Shrestha", role: "Member", group: "Core Team", photo: "" },
-    { name: "Sandesh Bhatta", role: "Member", group: "Core Team", photo: "assests/member/sandesh.jpg" },
+    { name: "Sandesh Bhatta", role: "Member", group: "Core Team", photo: "assets/member/sandesh.jpg" },
     { name: "Santosh Kumar Tharu", role: "Member", group: "Volunteers", photo: "" },
     { name: "Aayush Paudel", role: "Member", group: "Volunteers", photo: "" },
     { name: "Dipansh Sunar", role: "Member", group: "Volunteers", photo: "" },
